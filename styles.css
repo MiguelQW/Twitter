@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+}
+
+body section:nth-child(1) {
+  width: 275px;
+}
+
+body section:nth-child(2) {
+  width: 600px;
+}
+
+body section:nth-child(3) {
+  width: 275px;
+}
+
+body section:nth-child(4) {
+  position: absolute;
+  border: 1px solid #ddd;
+  right: 2rem;
+  bottom: 0;
+  border-radius: 1rem 1rem 0 0;
+}
+
+body section:nth-child(4) > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem 1rem 0.1rem 1rem;
+  gap: 3rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body section:nth-child(4) > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+}
+
+body section:nth-child(4) > div > div > button {
+  font-size: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
