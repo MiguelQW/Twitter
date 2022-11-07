@@ -1,0 +1,152 @@
+.col-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.col-right input[type="search"] {
+    margin-top: .5rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    background: #fff1;
+    outline: none;
+    border: 1px solid #0001;
+    border-radius: 2.5rem;
+}
+
+.col-right input[type="search"]:focus {
+    border: 1px solid #2d92cc;
+    background: #fff;
+}
+
+.col-right>div {
+    background: #f7f9f9;
+    overflow: hidden;
+    border-radius: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.col-right>div>div:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .5rem .8rem;
+}
+
+.col-right>div>div:nth-child(1)>h1 {
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+}
+
+.col-right>div>div:nth-child(1)>button {
+    width: 2rem;
+    height: 100%;
+    background: #0000;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.col-right>div>div:nth-child(1)>button:hover {
+    cursor: pointer;
+    background: #0001;
+}
+
+.col-right>div a {
+    color: #2d92cc;
+    text-decoration: none;
+    padding: 1rem;
+    width: 100%;
+}
+
+.col-right>div a:hover {
+    background: #0001;
+}
+
+.col-right>div .trends,
+.col-right>div .users {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.col-right>div .trends a,
+.col-right>div .users a {
+    color: #000;
+}
+
+.col-right>div .trends a p,
+.col-right>div .users a p {
+    font-size: .9rem;
+}
+
+.col-right>div .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.col-right>div .user img {
+    width: 3.25rem;
+    border-radius: 50%;
+}
+
+.col-right>div .user button {
+    margin: auto 0 auto auto;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    padding: .5rem 1rem;
+    color: #fff;
+    background: #000;
+    border: none;
+    border-radius: 1rem;
+}
+
+.col-right footer {
+    padding: 1rem;
+}
+
+.col-right footer>a,
+.col-right footer>p {
+    font-size: .9rem;
+    color: #999;
+    text-decoration: none;
+}
+
+.col-right footer>a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+    .col-right {
+        display: none;
+    }
+}

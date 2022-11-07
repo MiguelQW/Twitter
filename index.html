@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="styles_rightcol.css" />
         <script src="script.js"></script>
         <title>Kotter</title>
     </head>
@@ -50,36 +51,67 @@
                 <div></div>
             </div>
         </section>
-        <section>
-            <input type="search" name="searchbar" />
+        <section class="col-right">
+            <input type="search" name="searchbar" placeholder="Search Kotter" />
             <div>
-                <h1>Trends for you</h1>
-                <button>⚙</button>
-                <div class="trends">
-                    <div class="trend"></div>
-                    <div class="trend"></div>
-                    <div class="trend"></div>
-                    <div class="trend"></div>
-                    <div class="trend"></div>
-                    <div class="trend"></div>
+                <div>
+                    <h1>Trends for you</h1>
+                    <button>⚙</button>
                 </div>
-                <a href="./trends">Show more</a>
+                <div class="trends">
+                    <a href="./" class="trend">
+                        <p class="text-gray">Trending in Foo</p>
+                        <strong>Trend A</strong>
+                        <p class="text-gray">1337 Kotts</p>
+                    </a>
+                    <a href="./" class="trend">
+                        <p class="text-gray">Trending in Bar</p>
+                        <strong>Trend B</strong>
+                        <p class="text-gray">9183 Kotts</p>
+                    </a>
+                    <a href="./" class="trend">
+                        <p class="text-gray">Trending in Baz</p>
+                        <strong>Trend C</strong>
+                        <p class="text-gray">93K Kotts</p>
+                    </a>
+                </div>
+                <a href="./">Show more</a>
             </div>
             <div>
-                <h1>Who to follow</h1>
-                <div class="users">
-                    <div class="user"></div>
-                    <div class="user"></div>
+                <div>
+                    <h1>Who to follow</h1>
                 </div>
-                <a href="./whotofollow">Show more</a>
+                <div class="users">
+                    <a href="./" class="user">
+                        <div>
+                            <img src="https://pbs.twimg.com/profile_images/472354105822687232/6B0jgEqM_normal.jpeg" alt="User Avatar" width="64px">
+                        </div>
+                        <div>
+                            <strong>User A</strong>
+                            <p class="text-gray">@usernameA</p>
+                        </div>
+                        <button>Follow</button>
+                    </a>
+                    <a href="./" class="user">
+                        <div>
+                            <img src="https://pbs.twimg.com/profile_images/1587290337587904512/Y4s_eu5O_normal.jpg" alt="User Avatar" width="64px">
+                        </div>
+                        <div>
+                            <strong>User B</strong>
+                            <p class="text-gray">@usernameB</p>
+                        </div>
+                        <button>Follow</button>
+                    </a>
+                </div>
+                <a href="./">Show more</a>
             </div>
             <footer>
-                <a href="">Terms of Service</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Cookie Policy</a>
-                <a href="">Ads info</a>
-                <a href="">More</a>
-                <p>C</p>
+                <a href="./">Terms of Service</a>
+                <a href="./">Privacy Policy</a>
+                <a href="./">Cookie Policy</a>
+                <a href="./">Ads info</a>
+                <a href="./">More</a>
+                <p>© 2022 Kotter, Inc.</p>
             </footer>
         </section>
         <section>
